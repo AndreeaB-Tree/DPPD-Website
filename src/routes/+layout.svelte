@@ -51,6 +51,7 @@
     footer {
         margin-top: auto;
         position: relative;
+        padding: 30px 20px;
     }
 
     footer > img {
@@ -60,11 +61,18 @@
     }
 
     .flower1 {
-        bottom: 0px;
-        left: 0px;
+        transform: translateX(1200px);
+    }
+
+    .flower2 {
+        transform: translateX(800px);
+    }   
+    
+    .flower3 {
+        transform: translateX(300px);
     }
 
     .flower4 {
-        transform: translateX(500px) rotate(-60deg);
+        transform: translateX(500px);
     }
 </style>
