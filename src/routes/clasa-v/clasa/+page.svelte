@@ -2,7 +2,7 @@
     <h1 class="page-title">Activitate la Clasa</h1>
     
     <div class="content">
-        <h2>Curricula:</h2>
+        <h2>Plan de invatamant:</h2>
         <object 
             data="/pdf/curicula.pdf" 
             type="application/pdf"
@@ -32,6 +32,16 @@
             height="500px"
         >
             <p>Unable to display PDF file. <a href="/pdf/plandelectievariabile.pdf">Download</a> instead.</p>
+        </object>
+
+        <h2>Plan de Lectie Foldere si Fisiere:</h2>
+        <object 
+            data="/pdf/plandelectiefisiere.pdf" 
+            type="application/pdf"
+            width="70%" 
+            height="500px"
+        >
+            <p>Unable to display PDF file. <a href="/pdf/plandelectiefisiere.pdf">Download</a> instead.</p>
         </object>
 
         <h2>Lectie de Consolidare:</h2>
