@@ -16,6 +16,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-node": "^1.0.0-next.106"
+		"@sveltejs/adapter-node": "^1.0.0-next.106",
+		"@sveltejs/adapter-vercel": "^3.0.1"
 	}
 }
