@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #B370B0;
+    --secondary-color: #BBA0CA;
+    --background-color: #f0e5fe;
+    --accent-color: #068D9D;
+    --writing-color-black: #0D1821;
+    --writing-color-white: white; 
+}
+
+
+@font-face {
+    font-family: 'Typo';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/TypoRound/Typo_Round_Regular_Demo.otf');
+}
+
+
+
+*, *::before, *::after {
+    font-family: 'Typo';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.page-title {
+    color: var(--primary-color);
+    font-size: 30px;
+    text-align: center;
+    margin: 20px auto;
+    letter-spacing: 2px;
+}
+
+.resources {
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.class-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class-links > a { 
+    color: var(--writing-color-black);
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+.class-links > a:hover { 
+    color: grey;
+    transition: 0.2s;
+}
